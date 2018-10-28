@@ -1,6 +1,6 @@
 -module(erlydtl_runtime).
 
--compile(export_all).
+-compile([export_all, nowarn_export_all]).
 
 -define(IFCHANGED_CONTEXT_VARIABLE, erlydtl_ifchanged_context).
 
